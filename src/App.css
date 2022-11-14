@@ -1,0 +1,100 @@
+.App {
+  align-content: center;
+  margin-top: 1px;
+  width: 90%;  
+  background-color: white;
+  padding: 100px ;
+}
+.Crono {
+    align-content: center;
+    margin-top: 1px;
+    width: 90%;  
+    background-color: white;
+    padding: 100px ;
+    
+  }
+
+
+.add-btn{ 
+  float: right;
+  background-color: rgb(253, 249, 249);
+  color: rgb(10, 10, 10);
+  border: none;
+  
+}
+.btcrono {
+    /*background-color: #4CAF50; 
+    border-color: #358139; */
+    color: #0a0909;
+    padding: 3px 20px;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.cr{
+    align-content: center;
+}
+
+.textdes{
+    font-size: 10px;
+}
+
+.input{    
+    width: 60px;
+    height:16px;
+}
+
+.cont{
+    align-content: center;
+}
+
+.inputtext{
+    size: 15; 
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 100em;     
+}
+.contenedor .ul{
+    width:50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contenedor .li{
+    padding: 0.5em;
+    margin:0 1em 0 0;
+    transition: all .5s ease;
+    cursor: pointer;
+    list-style:none;
+    width:100%;
+}
+.contenedor .li.activo{
+    border: 1px;
+    border-color: black;
+    background-color: rgb(98, 186, 241);
+    color:white;
+    padding: 0.6em;
+}
+.contenedor .subcontenedor{
+    min-height: 10vh;
+    position: relative;   
+}
+.contenedor .bloque{
+    margin:0.5em;
+    padding: 0.2em;
+    position: absolute;    
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all .5s ease;
+}
+.contenedor .bloque.activo{
+    opacity: 1;
+    transform: translateY(0%);
+    border-spacing: 0ex;
+}
